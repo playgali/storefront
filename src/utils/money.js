@@ -30,7 +30,7 @@ export function formatPrice(price, currency) {
         formattedPrice = formatAmount(price),
         currencySymbol = getCurrencySymbol(currency);
 
-    return `${formattedPrice} ${currencySymbol}`;
+    return `${currencySymbol} ${formattedPrice}`;
 }
 
 export function getCurrencySymbol(abbreviation) {
