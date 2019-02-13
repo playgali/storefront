@@ -44,8 +44,8 @@ export const
 
         // https://schema.io
         schemaIO: {
-            clientId: '<your_schema_client_id>',
-            clientSecret: '<your_schema_client_secret>',
+            clientId: 'hojaalviento',
+            clientSecret: 'pk_SAeI4IMXd6TCI6reVAG7LMSH168amLz3',
             protocol: 'https://',
             host: 'api.schema.io'
         },
